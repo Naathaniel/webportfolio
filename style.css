@@ -1,20 +1,51 @@
-{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-font-family: 'Poppins', sans-serif;
+* {font-family: 'Poppins', sans-serif;}
 
-body {
-	background-color: green;
+#h5 {
+	text-align: justify;
+	letter-spacing: normal;
+}
+
+#sec-1 {
+	background-color: #eeeeee;
+}
+
+#nate {
+	color: #0097a7;
 }
 
 #second {
-	background-color: green;
+	background-color: white;
 
 }
+
+#button {
+	background-color: #0097a7;
+	color: white;
+	border-style: none;
+}
+
+#first {
+	background-color: #eeeeee;
+}
+
+#hello {
+	font-weight: lighter;
+	color: #0097a7;
+}	
 
 #nav {
-	color: green;
+    background-color: #eeeeee;	
 }
+
+#foot {
+	color: gray;
+	background-color: #1b1b1b;
+	font-size: 12px;
+}
+

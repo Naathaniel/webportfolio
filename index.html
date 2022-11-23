@@ -10,68 +10,77 @@
 
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-		
-
 		<title>Nate Portfolio</title>
 	</head>
 
 	<body>
 
-		<section>
+		<section id="sec-1" class="container-fluid">
 			<!-- navbar -->
-			<nav id="nav" class="navbar navbar-expand-lg navbar-light px-5" style="background-color: #eeeeee;">
-				<img src="./logo1.png" class="p-2">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">About Me</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Projects</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact Me</a>
-						</li> 
-					</ul>
-				</div>
-			</nav>
-		<!-- end of navbar -->
+				<nav id="nav" class="navbar navbar-expand-lg navbar-light px-5">
+					<img src="./logo1.png" class="pt-2 pl-md-5 pl-sm-0">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse pr-5" id="navbarNav">
+						<ul class="navbar-nav ml-md-auto">
+							<li class="nav-item active pl-3">
+								<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item active pl-3">
+								<a class="nav-link" href="#">About Me</a>
+							</li>
+							<li class="nav-item active pl-3">
+								<a class="nav-link" href="#">Projects</a>
+							</li>
+							<li class="nav-item active pl-3">
+								<a class="nav-link" href="#">Contact Me</a>
+							</li> 
+						</ul>
+					</div>
+				</nav>
 		</section>
+		<!-- end of navbar -->
 
 		<!-- main -->
+		<div class= "text-center container-fluid">
 
-		<!-- first content -->
-		<div class= "text-center">
-   
+   				<!-- first content -->
+                <div id="first" class="row"> 
+					<div class="container-fluid col-sm-12 col-md-6  pt-5 mt-5">
+                    	<div class="pt-5 mt-5 ">
+                    		<div class="d-flex justify-content-start row  ml-5">
+                    			<span class="ml-5 ">
+                    			<h4 id="hello" class="d-flex justify-content-start">-hello</h4>
+            			        <h1 id="h1"><strong>I AM <span id="nate">NATE</span></strong> </h1> 
+                    			</span>
+            			        <h5 id="h5" class="ml-5">Knowledgeable Full-Stack Developer adept at creating successful websites and mobile applications that meet customer needs. Fully proficient in HTML, CSS, and Bootstrap.</h5>
+            			    	<div class="mt-5 ml-5">
+            			    	<button id="button" type="button" class="btn-lg">Download CV</button></div>
+                    		</div>		
+                        </div>
+                    </div>
+					<div>
+						<div class="col-sm-12 col-md-6  pr-5">
+                    	 <img src="./try2.png" class=" ">
+               			</div>
+					</div>
 
-            <div class="row" style="background-color: #eeeeee;">
-
-                <div class="col-sm-12 col-md-6 order-2 order-md-1 py-5 mt-5">
-                	<h4>-hello</h4>
-                    <h1>I am Nate</h1>
-                    <h3>I am Front-End Developer, Studying at Zuitt!</h3>
-                </div>
-
-                <div class="col-sm-12 col-md-6 order-1 order-md-2">
-                    <img src="./try2.png" class="img-fluid ">
-                </div>
-            </div>
+                		<!-- social icons -- >
+               		 	<div></div>
+				</div>
             <!-- first content end -->
 
+
+
             <!-- second content -->
-            <div id="second" class="container-fluid text-center p-5" style="background-color: white;">
+            <div id="second" class="container-fluid text-center p-5">
             	<div class="row p-5">
-            	    <div class="col-sm-12 col-md-6 img-fluid">
-                    	<img src="https://www.cloudways.com/blog/wp-content/uploads/Rest-API-introduction.jpg"/ class="img-thumbnail mb-4">
+            	    <div class="col-sm-12 col-md-6">
+                    	<img src="./second.jpg"/ class="img-fluid mb-4">
                 	</div>
                 	<div class="col-sm-12 col-md-6">
-                    	<h1>About Me</h1>
+                    	<h1 id="about">About Me</h1>
                     	<h1>-</h1>
                     	<p class="px-4 mx-2"> Wesbsite Developer with 3 weeks of functional experience designing and managing business websites using my laptop :) creation tools and Proficient Graphic Designer, knowledgeable about logos, marketing materials and website design.
 						Excellent reputation for resolving problems, improving customer satisfaction and achieves compatibility targets while meeting and exceeding customer demands</p>
@@ -102,27 +111,80 @@
              <!-- second content end -->
 
              <!-- third content -->
-            <div id="second" class="container-fluid text-center p-5 justify-content-center" style="background-color: #eeeeee;">
-            	<div class="column p-5">
-                	<div class="col-sm-12 col-md-6">
-                    	<h1>About Me</h1>
+            <div id="third" class="container-fluid text-center p-5 justify-content-center">
+            	<div class="row-5">
+                	<div class="col-sm-12 col-md-6 column">
+                    	<h1>Recent Projects</h1>
                     	<h1>-</h1>
                     	<p class="px-4 mx-2"> Wesbsite Developer with 3 weeks of functional experience designing and managing business websites using my laptop :) creation tools and Proficient Graphic Designer, knowledgeable about logos, marketing materials and website design.
 						Excellent reputation for resolving problems, improving customer satisfaction and achieves compatibility targets while meeting and exceeding customer demands</p>
                    </div>
-                   <div class="col-sm-12 col-md-6 img-fluid">
-                    	<img src="https://www.cloudways.com/blog/wp-content/uploads/Rest-API-introduction.jpg"/ class="img-thumbnail mb-4">
+                   <div class="col-sm-12 col-md-6">
+                    	<img src="third.jpg"/ class="img-fluid mb-4">
                 	</div>
             	</div> 			
             </div>
+            <!-- third content End -->
 
+            <!-- contact form -->
+            <div class="justify-content-center text-center container-fluid" style="width: 25rem;">
+            	<h2 class="text-center mt-4 ">Contact Me</h2>
+            	<div class="bg-primary p-3">
+            		<form>
+            			<div class="form-group">
+            				<label for="exampleFormControlInput1">Name</label>
+            				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+            			</div>
+            			<div class="form-group">
+            				<label for="exampleFormControlInput1">Email Address</label>
+            				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            			</div>
+            			<div class="form-group">
+            				<label for="exampleFormControlInput1">Contact Number</label>
+            				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="+63 900 000 0000">
+            			</div> 
+            				Concern
+            				<select class="form-control"> 
+            				  <option>Quotation</option>
+            				  <option>Appointment</option>
+            				  <option>Follow-Up</option>
+            				</select>
+            			
+            			<div class="form-group">
+            				<label for="exampleFormControlTextarea1">Message</label>
+            				<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+            			</div>
 
+            			 <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modal">Send Email</button>
 
+            				<div class="modal fade" id="modal">
+            				  <div class="modal-dialog">
+            				    <div class="modal-content">
+            				      <div class="modal-header">
+            				        <h5 class="modal-title text-dark">Thank you for contacting us!</h5>
+            				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            				          <span aria-hidden="true">&times;</span>
+            				        </button>
+            				      </div>
+            				      <div class="modal-body">
+            				        <p class="text-dark">Message Successfully Sent</p>
+            				      </div>
+            				      <div class="modal-footer">
+            				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            				      </div>
+            				    </div>
+            				  </div>
+            				</div>
 
-
+            			 </div>
+            		</form>
+            	</div>
+            </div>
 		</div>
 
-
+		<footer>
+			<div id="foot" class="text-center p-2">Copyright 2022 - Nate Dionisio</div>
+		</footer>
 
 
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
