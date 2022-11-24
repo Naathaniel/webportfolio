@@ -4,30 +4,26 @@
 	box-sizing: border-box;
 }
 
-* {font-family: 'Poppins', sans-serif;}
-
-#h5 {
-	text-align: justify;
-	letter-spacing: normal;
+body {
+	overflow: scroll;
 }
 
+* {font-family: 'Poppins', sans-serif;}
+
+/*nav*/
 #sec-1 {
 	background-color: #eeeeee;
 }
 
-#nate {
-	color: #0097a7;
+#nav {
+    background-color: #eeeeee;	
 }
 
-#second {
-	background-color: white;
 
-}
-
-#button {
-	background-color: #0097a7;
-	color: white;
-	border-style: none;
+/*first content*/
+#intro {
+ 	padding-left: 90px;
+ 	padding-right: 60px;
 }
 
 #first {
@@ -37,12 +33,116 @@
 #hello {
 	font-weight: lighter;
 	color: #0097a7;
+	padding-top: 80px;
 }	
 
-#nav {
-    background-color: #eeeeee;	
+h1 {
+	font-size: 100px;
 }
 
+#nate {
+	color: #0097a7;
+}
+
+#sec-2 {
+	background-color: #eeeeee;
+	
+}
+
+#button {
+	background-color: #0097a7;
+	color: white;
+	border-style: none;
+}
+
+#name {
+	font-weight: bolder;
+	font-size: 50px;
+	text-align: justify all;
+}
+/*first content end */
+
+
+/*Second content*/
+#second {
+	background-color: white;
+}
+
+#about {
+padding-top: 15%;
+}
+
+#about {
+	font-weight: bolder;
+	font-size: 45px;
+	color: #0097a7;
+
+}
+#icon {
+	color: #0097a7;
+	font-size: 30px;
+}
+
+#pcar {
+	font-weight: bolder;
+	font-size: 45px;
+	color: #0097a7
+}
+
+#pbar {
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 100%;
+}
+
+#pbar-p {
+	font-size: 20px;
+}
+/*Second content end */
+
+
+
+/*third content*/
+#sec4 {
+	background-color: #eeeeee;
+}
+
+ #psub {
+ 	font-weight: bold;
+	font-size: 30px;
+ }
+
+#button2 {
+	background-color: #0097a7;
+	color: white;
+	border-style: none;
+	padding-right: 55px;
+	padding-left: 55px;
+}
+
+#sec-3 {
+ padding-bottom: 4%;
+ padding-top: 4%;
+}
+/*third content end*/
+
+
+/*contact form*/
+#contact {
+	background-color: #0097a7;
+}
+
+#button3 {
+	background-color: black;
+	color: white;
+	border-style: none;
+}
+#con {
+ padding-right: 10%;
+}
+/*contact form end */
+
+/*footer*/
 #foot {
 	color: gray;
 	background-color: #1b1b1b;
