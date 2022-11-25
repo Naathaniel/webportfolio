@@ -13,6 +13,7 @@ body {
 /*nav*/
 #sec-1 {
 	background-color: #eeeeee;
+	padding-bottom: 2%;
 }
 
 #nav {
@@ -24,6 +25,7 @@ body {
 #intro {
  	padding-left: 90px;
  	padding-right: 60px;
+ 	padding-top: 5%;
 }
 
 #first {
